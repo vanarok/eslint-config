@@ -2,7 +2,12 @@
 
 module.exports = {
   plugins: ["vue"],
-  extends: ["./javascript", "plugin:vue/vue3-recommended", "@unocss", "prettier"],
+  extends: [
+    "./javascript",
+    "plugin:vue/vue3-recommended",
+    "@unocss",
+    "prettier",
+  ],
   rules: {
     "vue/html-self-closing": [
       "error",
@@ -30,7 +35,6 @@ module.exports = {
         ignores: [],
       },
     ],
-    "vue/static-class-names-order": ["error"],
     "vue/component-name-in-template-casing": ["error"],
     "vue/block-lang": [
       "error",
@@ -40,7 +44,7 @@ module.exports = {
         },
       },
     ],
-    "vue/component-api-style": ["error", ["script-setup"],],
+    "vue/component-api-style": ["error", ["script-setup"]],
     "vue/no-ref-object-destructure": ["error"],
     "vue/no-static-inline-styles": ["error"],
     "vue/require-expose": ["error"],
