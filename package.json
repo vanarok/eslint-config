@@ -1,7 +1,7 @@
 {
   "name": "eslint-config-vanarok",
-  "version": "1.1.7",
-  "description": "eslint configurations pack",
+  "version": "1.1.8",
+  "description": "Ivan Svoboda personal eslint configuratino pack",
   "keywords": [],
   "author": "Ivan Svoboda <ivanisekeev0@gmail.com>",
   "license": "ISC",
