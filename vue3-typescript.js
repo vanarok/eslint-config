@@ -2,8 +2,8 @@
 
 module.exports = {
   extends: [
-    "./typescript",
     "./vue3",
+    "./typescript",
     "@vue/eslint-config-typescript/recommended",
   ],
   parser: "vue-eslint-parser",
@@ -14,6 +14,7 @@ module.exports = {
   rules: {
     "vue/define-emits-declaration": ["error"],
     "vue/define-props-declaration": ["error"],
+    "no-unused-vars": "off",
     "vue/block-lang": [
       "error",
       {

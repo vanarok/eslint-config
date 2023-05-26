@@ -16,7 +16,7 @@
     "eslint-plugin-boundaries": "^3.1.0",
     "eslint-plugin-import": "^2.27.5",
     "eslint-plugin-vue": "^9.9.0",
-    "@unocss/eslint-config": "^0.50.6"
+    "@unocss/eslint-config": "^0.52.3"
   },
   "peerDependencies": {
     "eslint": "^8.34.0",
